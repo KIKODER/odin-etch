@@ -1,6 +1,12 @@
-.square {
-    width: 150px;
-    height: 150px;
-    border: solid 3px black;
+#container {
+    max-width: 90vw;
+    max-height: 90vh;
     display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.square {
+    box-sizing: border-box;
+    border: solid 1px black;
 }
