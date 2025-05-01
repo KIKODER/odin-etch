@@ -12,5 +12,8 @@ for (let i = 0; i < numEntered * numEntered; i++) {
     square.style.width = `${squareSize}vw`;
     square.style.height = `${squareSize}vh`;
     container.appendChild(square);
+    square.addEventListener("mouseover", () => {
+        square.style.backgroundColor = 'blue';
+    });
 }
 
