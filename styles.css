@@ -10,3 +10,4 @@
     box-sizing: border-box; /* important to include borders in total size */
     border: 1px solid black; /* thinner border = less layout disruption */
 }
+

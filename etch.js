@@ -13,3 +13,4 @@ for (let i = 0; i < numEntered * numEntered; i++) {
     square.style.height = `${squareSize}vh`;
     container.appendChild(square);
 }
+
