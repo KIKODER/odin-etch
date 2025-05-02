@@ -6,8 +6,23 @@
     margin: auto;
 }
 
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#reset {
+    font-size: 1.5em;
+}
+
+#reset:hover {
+    font-weight: bold;
+}
+
 .square {
-    box-sizing: border-box; /* important to include borders in total size */
-    border: 1px solid black; /* thinner border = less layout disruption */
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
