@@ -1,6 +1,6 @@
 #container {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 20px solid rgb(77, 109, 109);
     display: flex;
     flex-wrap: wrap;
@@ -8,19 +8,36 @@
 }
 
 #top {
+    font-size: 50px;
+    padding: 20px;
+}
+
+#tag,
+#top {
+
+    font-weight: bold;
+    color: rgb(59, 82, 82);
+    display: flex;
+    justify-content: center;
+}
+
+#buttons {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0px 40px;
+    margin: 20px 0px 20px;
 }
 
-#reset {
+#reset,
+#clear {
     font-size: 1.5em;
     color: white;
     background-color: rgb(77, 109, 109);
+    margin: 0px 40px;
 }
 
-#reset:hover {
+#reset:hover,
+#clear:hover {
     font-weight: bold;
 }
 

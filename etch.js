@@ -1,8 +1,9 @@
 const container = document.querySelector("#container");
 const reset = document.querySelector("#reset");
+const clear = document.querySelector("#clear");
 
 function generateGrid(numEntered) {
-    const squareSize = 500 / numEntered;
+    const squareSize = 600 / numEntered;
 
     for (let i = 0; i < numEntered * numEntered; i++) {
         const square = document.createElement("div");
@@ -24,4 +25,11 @@ reset.addEventListener("click", () => {
     document.querySelector("#container").innerHTML = "";
     let numEntered = prompt("Enter a number between 1 and 100.");
     generateGrid(numEntered);
+});
+
+clear.addEventListener("click", () => {
+    const squares = document.querySelectorAll(".square");
+    squares.forEach(square => {
+        square.style.backgroundColor = "white"; // or your original background color
+    });
 });
